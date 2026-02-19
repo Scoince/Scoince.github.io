@@ -5,8 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Cybrella · HealthGuard AI</title>
 <style>
+/* ─── FIX: Keeps sections from hiding behind the navbar ─── */
+html { scroll-padding-top: 80px; }
+
 *{margin:0;padding:0;box-sizing:border-box}
-html{scroll-behavior:smooth;overflow-x:hidden}
 body{background:#030508;color:#dce8f0;font-family:'Segoe UI',system-ui,sans-serif;overflow-x:hidden}
 ::-webkit-scrollbar{width:4px}
 ::-webkit-scrollbar-thumb{background:linear-gradient(#2ecc71,#1a7a50);border-radius:2px}
@@ -337,10 +339,9 @@ footer{text-align:center;padding:36px 20px;border-top:1px solid rgba(255,255,255
   </ul>
 </nav>
 
-<!-- INTRO -->
 <section id="intro">
   <canvas id="introBg"></canvas>
-  <div class="intro-top">CYBRELLA · HACKATHON 2025 · QUALIFYING ROUND</div>
+  <div class="intro-top">CYBRELLA · HACKATHON 2026 · QUALIFYING ROUND</div>
 
   <div class="hero-title">
     <div class="team-name">Team Codex 2.0</div>
@@ -350,10 +351,9 @@ footer{text-align:center;padding:36px 20px;border-top:1px solid rgba(255,255,255
 
   <div class="three-panel">
 
-    <!-- DANIEL LEFT -->
     <div class="member-wrap">
       <div class="portrait-box" id="pb-left">
-        <img src="daniel.jpg" alt="Daniel" class="permanent-img">
+        <img src="Daniel.jpeg" alt="Daniel" class="permanent-img">
         <div class="scan-line" style="animation-delay:0s"></div>
         <div class="portrait-corner tl"></div>
         <div class="portrait-corner tr"></div>
@@ -364,11 +364,10 @@ footer{text-align:center;padding:36px 20px;border-top:1px solid rgba(255,255,255
       <div class="member-role" id="rl-left">ML</div>
     </div>
 
-    <!-- STATUS CENTER + GROUP ICON -->
     <div class="status-panel">
       <div class="icon-slot">
         <div class="icon-box" id="pb-icon">
-          <img src="logo.png" alt="Team logo" class="permanent-img">
+          <img src="Team logo.PNG" alt="Team logo" class="permanent-img">
         </div>
         <div class="icon-label">Group Icon</div>
       </div>
@@ -397,10 +396,9 @@ footer{text-align:center;padding:36px 20px;border-top:1px solid rgba(255,255,255
       </div>
     </div>
 
-    <!-- RYAN RIGHT -->
     <div class="member-wrap">
       <div class="portrait-box" id="pb-right">
-        <img src="ryan.jpg" alt="Ryan" class="permanent-img">
+         <img src="Ryan.jpeg" alt="Ryan" class="permanent-img">
         <div class="scan-line" style="animation-delay:1.4s"></div>
         <div class="portrait-corner tl"></div>
         <div class="portrait-corner tr"></div>
@@ -412,13 +410,11 @@ footer{text-align:center;padding:36px 20px;border-top:1px solid rgba(255,255,255
     </div>
   </div>
 
-  <!-- MARQUEE -->
   <div class="marquee-strip">
     <div class="marquee-inner" id="mq"></div>
   </div>
 </section>
 
-<!-- PROBLEM -->
 <section class="scroll-section" id="problem">
   <div class="section-eyebrow reveal">01 · Problem</div>
   <h2 class="section-h reveal">The healthcare <span class="g">access gap</span></h2>
@@ -431,7 +427,6 @@ footer{text-align:center;padding:36px 20px;border-top:1px solid rgba(255,255,255
   </div>
 </section>
 
-<!-- SOLUTION -->
 <section class="scroll-section" id="solution" style="background:rgba(46,204,113,.01)">
   <div class="section-eyebrow reveal">02 · Solution</div>
   <h2 class="section-h reveal">Instant <span class="g">ML triage</span> in 3 steps</h2>
@@ -451,7 +446,6 @@ footer{text-align:center;padding:36px 20px;border-top:1px solid rgba(255,255,255
   </div>
 </section>
 
-<!-- TECH -->
 <section class="scroll-section" id="tech">
   <div class="section-eyebrow reveal">03 · Stack</div>
   <h2 class="section-h reveal">Lightweight & <span class="g">offline-ready</span></h2>
@@ -467,7 +461,6 @@ footer{text-align:center;padding:36px 20px;border-top:1px solid rgba(255,255,255
   </div>
 </section>
 
-<!-- STATS -->
 <section class="scroll-section" id="impact" style="background:rgba(46,204,113,.01)">
   <div class="section-eyebrow reveal">04 · Impact</div>
   <h2 class="section-h reveal">Built to <span class="g">scale</span></h2>
@@ -479,7 +472,6 @@ footer{text-align:center;padding:36px 20px;border-top:1px solid rgba(255,255,255
   </div>
 </section>
 
-<!-- ROADMAP -->
 <section class="scroll-section" id="roadmap">
   <div class="section-eyebrow reveal">05 · Roadmap</div>
   <h2 class="section-h reveal">Two-phase <span class="g">delivery</span></h2>
@@ -509,7 +501,6 @@ footer{text-align:center;padding:36px 20px;border-top:1px solid rgba(255,255,255
   </div>
 </section>
 
-<!-- DEMO -->
 <section class="scroll-section" id="demo">
   <div class="section-eyebrow reveal">06 · Demo</div>
   <h2 class="section-h reveal">Live <span class="g">chat preview</span></h2>
@@ -519,7 +510,6 @@ footer{text-align:center;padding:36px 20px;border-top:1px solid rgba(255,255,255
   </div>
 </section>
 
-<!-- TEAM -->
 <section class="scroll-section" id="team" style="background:rgba(46,204,113,.01)">
   <div class="section-eyebrow reveal">07 · Team</div>
   <h2 class="section-h reveal">Built by <span class="g">Cybrella</span></h2>
@@ -537,7 +527,7 @@ footer{text-align:center;padding:36px 20px;border-top:1px solid rgba(255,255,255
   </div>
 </section>
 
-<footer>Cybrella · HealthGuard AI · Hackathon 2025 · Qualifying Submission<br>⚕️ Preliminary guidance only — always consult a licensed professional</footer>
+<footer>Cybrella · HealthGuard AI · Hackathon 2026 · Qualifying Submission<br>⚕️ Preliminary guidance only — always consult a licensed professional</footer>
 
 <script>
 // ── BG CANVAS ──────────────────────────────────────────────────
@@ -582,6 +572,7 @@ setTimeout(()=>{
   const nl=document.getElementById('nm-left');
   const nr=document.getElementById('nm-right');
   nl.textContent='';nr.textContent='';
+  // ── FIX: UPDATED NAMES HERE ──
   scramble(nl,'MOIRANGTHEM DANIEL SINGH',300);
   scramble(nr,'RYAN AWUNGSHI',800);
 },250);
@@ -625,7 +616,8 @@ setTimeout(()=>{
 
 // ── MARQUEE ───────────────────────────────────────────────────
 const items=[
-  '🔴 Round 1 Live · Feb 11–17 2025',
+  // ── FIX: UPDATED DATE TO 2026 ──
+  '🔴 Round 1 Live · Feb 11–19 2026',
   '📋 Submit: Problem Statement · Solution · Proposal · Video',
   '⚡ Judging: Feb 18 · Shortlist: Feb 19',
   '🏥 HealthGuard AI · Symptom → ML → Diagnosis',
