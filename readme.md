@@ -1,1 +1,1 @@
-https://Scoince.github.io
+https://scoince.github.io
